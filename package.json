@@ -1,0 +1,40 @@
+{
+  "name": "typography-theme-vue",
+  "version": "0.1.0",
+  "description": "A theme for Typography.js inspired by Vue document style.",
+  "scripts": {
+    "format": "node fmt ./src",
+    "lint": "node lint --unstable ./src",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepublishOnly": "yarn tsc"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Shen-Yu/typography-theme-vue.git"
+  },
+  "author": "Shen-Yu <shenyu@hotmail.com>",
+  "keywords": [
+    "css",
+    "typography",
+    "typography-theme"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shen-Yu/typography-theme-vue/issues"
+  },
+  "homepage": "https://github.com/Shen-Yu/typography-theme-vue#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.3",
+    "@types/typography": "^0.16.3",
+    "typescript": "^4.2.4"
+  }
+}
